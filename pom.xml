@@ -41,6 +41,12 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
 
         </dependency>
+        <!-- Feign实现声明式HTTP客户端 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-feign</artifactId>
+            <version>1.4.6.RELEASE</version>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>
